@@ -1,0 +1,32 @@
+
+      
+:root {
+    --primary:#f3e5ab;
+    --secondary:#fdfaf5;
+    --bg:#121212;
+
+
+}
+body{
+    background-color:var(--bg);
+}
+.Intro{
+    padding:10px;
+    border:4px solid;
+    border-color:var(--bg);
+}
+.AboutMe{
+    padding: 10px;
+    border-color:var(--bg);
+}
+
+th{
+    color:var(--primary);
+    font-size:170%;
+    padding-right:30px;
+}
+td{
+    color:var(--secondary);
+    font-size:150%;
+    padding-right:30px;
+}

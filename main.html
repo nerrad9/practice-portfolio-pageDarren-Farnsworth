@@ -3,11 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Personal Webpage</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Darren Farnsworth</h1>
+    <header class="Intro">
+        <div style = "display:flex;">
+            <img src = "profile.jpg" alt="me" style = "max-height: 150px; padding:10px; border-radius:50%;">
+            <div>
+                <div style = "color:var(--primary);font-size:500%;margin-top:20px;">Darren Farnsworth</div>
+                <div style = "color:var(--secondary);font-size:200%">Coding Extraordinaire and Dumb Idea Wunderkind</div>
+                <div style = "color:var(--secondary);font-size:100%">Please address me as such</div>
+
+            </div>
+        </div>
     </header>
+    <section class = "AboutMe">
+        <div style = "color:var(--primary);font-size:200%">About Me</div>
+        <p style = "color:var(--secondary); font-size:150%; padding-left:20px; padding-right:20px; text-align:justify;">
+        I always have an idea to share. Whether it's a good idea or a bad idea depends on how open minded you are.  From puzzle 
+    books as a child to word problems in math class, I've always enjoyed coming up with unique solutions to challenging problems.
+    I learned programming as it offered many unique tools to solve my day to day problems.  After learning everything I could I began 
+    to share that knowledge with others.  Having experience in training new hires working food service thoughout high school and college, 
+    I became a private tutor, teaching programming to children of all ages.  I worked there for 6 years, in that time I became the head coach 
+    and took ever running the operation when my boss went on vacations.  I feel like I learned a lot more than I taught doing that job.  
+    It not only forced me to dive head first into new languages and libraries, but also helped reinforce my leadership skills.  
+    Now I feel confident that I have the skills needed to lead, teach, and create just about anything I can think of, whether it's a bad idea or not.
+        </p>
+    </section>
+    <section class = "AboutMe">
+        <div style = "color:var(--primary);font-size:200%">My Best Languages</div>
+        <table style="margin-left:20px;">
+            <tr>
+                <th>Language</th>
+                <th style="text-align:left;">Experience</th>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>My strongest language and the primary one I have worked in and taught</td>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>The first language I learned in school and the one I used for the AP Computer Science exam</td>
+            </tr>
+            <tr>
+                <td>Javascript</td>
+                <td>A language I started learning recently and have quickly developed</td>
+            </tr>
+            <tr>
+                <td>C#</td>
+                <td>The language I led my more advanced students towards after they became proficient in Python</td>
+            </tr>
+            <tr>
+                <td>C++</td>
+                <td>A language I have helped a few students with mostly in the context of Unity</td>
+            </tr>
+        </table>
+    </section>
+    <section class = "AboutMe">
+        <div style = "color:var(--primary);font-size:200%">Contact Me</div>
+        <form style = "margin-left:20px">
+        <label for="name" style = "color:var(--secondary); font-size:150%;">Name:</label>
+        <input type="text" id="name" name="name" style = "font-size:100%;"><br>
+        <label for="email" style = "color:var(--secondary); font-size:150%;">Email:</label>
+        <input type="text" id="email" name="email" style = "font-size:100%;"><br>
+        <label for="msg" style = "color:var(--secondary); font-size:150%;">Message:</label><br>
+        <textarea id="user-message" name="message" rows="8" cols="60" style = "resize:none; font-size:125%;" placeholder="Type your message here..."></textarea><br>
+        <button type="submit" style = "font-size:100%">Submit</button>
+        </form>
+    </section>
 </body>
 </html>
