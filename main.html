@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +9,21 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <header class="Intro">
         <div style = "display:flex; align-items:center">
             <img src = "profile.jpg" alt="me" style = "max-height: 150px; padding:10px; border-radius:50%;">
             <div>
-                <div style = "color:var(--primary);font-size:500%;line-height:1;">Darren Farnsworth</div>
-                <div style = "color:var(--secondary);font-size:200%">Coding Extraordinaire and Dumb Idea Wunderkind</div>
+                <h1 style = "color:var(--primary);font-size:500%;line-height:1;">Darren Farnsworth</h1>
+                <h2 style = "color:var(--secondary);font-size:200%">Coding Extraordinaire and Dumb Idea Wunderkind</h2>
                 <div style = "color:var(--secondary);font-size:100%">Please address me as such</div>
 
             </div>
         </div>
     </header>
+
     <section class = "AboutMe">
-        <div style = "color:var(--primary);font-size:200%;line-height:1;padding-top=10px;">About Me</div>
+        <h2 style = "color:var(--primary);font-size:200%;line-height:1;padding-top=10px;">About Me</h2>
         <p style = "color:var(--secondary); font-size:150%; padding-left:20px; padding-right:20px; text-align:justify;">
         I always have an idea to share. Whether it's a good idea or a bad idea depends on how open minded you are.  From puzzle 
     books as a child to word problems in math class, I've always enjoyed coming up with unique solutions to challenging problems.
@@ -31,8 +35,9 @@
     Now I feel confident that I have the skills needed to lead, teach, and create just about anything I can think of, whether it's a bad idea or not.
         </p>
     </section>
+
     <section class = "AboutMe">
-        <div style = "color:var(--primary);font-size:200%">My Best Languages</div>
+        <h2 style = "color:var(--primary);font-size:200%">My Best Languages</h2>
         <table style="margin-left:20px;">
             <tr>
                 <th>Language</th>
@@ -41,6 +46,10 @@
             <tr>
                 <td>Python</td>
                 <td>My strongest language and the primary one I have worked in and taught</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>Honestly probably worse at this than python at this point</td>
             </tr>
             <tr>
                 <td>Java</td>
@@ -56,17 +65,31 @@
             </tr>
         </table>
     </section>
-    <section class = "AboutMe">
-        <div style = "color:var(--primary);font-size:200%">Contact Me</div>
+
+    <!-- <section>
+        <h2 style = "color:var(--primary);font-size:200%">Things I've wasted time on</h2>
+        <ul>
+            <li>Project 1</li>
+            <li>Project 2</li>
+            <li>Project 3</li>
+        </ul>
+    </section> -->
+
+    <footer>
+        <h2 style = "color:var(--primary);font-size:200%">Contact Me</h2>
+        <h3 style = "color:var(--secondary); font-size:150%;" >Find out what bad idea I'm thinking about or yap with me about a previous one</div>
         <form style = "margin-left:20px">
         <label for="name" class = "inputLabel">Name:</label>
-        <input type="text" id="name" name="name" class = "inputBox" required><br>
+        <input type="text" id="name" name="name" class = "inputBox" placeholder="John Doe" required><br>
         <label for="email" class = "inputLabel">Email:</label>
-        <input type="email" id="email" name="email" class = "inputBox" required><br>
+        <input type="email" id="email" name="email" class = "inputBox" placeholder="abc@email" required><br>
         <label for="msg" class = "inputLabel">Message:</label><br>
         <textarea id="user-message" name="message" rows="8" cols="60" placeholder="Type your message here..." required></textarea><br>
         <button type="submit" class = "submit">Submit</button>
         </form>
-    </section>
+        <br>
+        <div style = "color:car(--secondary);font-size:50%">© 2026 Darren Farnsworth. All rights reserved.</div>
+    </footer>
+
 </body>
 </html>

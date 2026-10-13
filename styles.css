@@ -7,22 +7,26 @@
 
 
 }
+
+/* Ruined my formatting, I want manual control so I'm setting these to defaults */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
 body{
     background-color:#000;
-    font-family:"Segoe UI";
+    font-family:"Verdana";
     line-height: 1.6;
 }
 .Intro{
     background-color:var(--bg);
-    margin:5px;
-    padding:15px;
-    border:2px solid;
-    border-radius: 10px;
-    border-color:var(#000);
 }
 .AboutMe{
     background-color:var(--bg);
-    margin: 5px;
+    margin: 20px;
     padding:15px;
     border:1px solid;
     border-radius: 10px;
@@ -49,7 +53,7 @@ td{
     border-radius:4px;
 }
 .inputBox{
-    font-size:100%;
+    font-size:120%;
     background-color: #1e1e1e;
     color: var(--secondary);
     border: 1px;
@@ -62,9 +66,13 @@ td{
 }
 textarea{
     resize:none; 
-    font-size:100%;
+    font-size:150%;
     background-color: #1e1e1e;
     border: 1px;
     border-radius: 4px;
     color: var(--secondary);
+}
+footer{
+    background-color:var(--bg);
+    padding:20px;
 }
