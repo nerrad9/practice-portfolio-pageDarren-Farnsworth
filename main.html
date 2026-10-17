@@ -5,11 +5,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Webpage</title>
+    <title>Profilolio Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
 
+<body>
     <header class="Intro">
         <div style = "display:flex; align-items:center">
             <img src = "profile.jpg" alt="me" style = "max-height: 150px; padding:10px; border-radius:50%;">
@@ -21,10 +21,10 @@
             </div>
         </div>
     </header>
-
-    <section class = "AboutMe">
-        <h2 style = "color:var(--primary);font-size:200%;line-height:1;padding-top=10px;">About Me</h2>
-        <p style = "color:var(--secondary); font-size:150%; padding-left:20px; padding-right:20px; text-align:justify;">
+    <main>
+    <section class = "sectionPanel">
+        <h2 style = "color:var(--primary);font-size:200%;">About Me</h2>
+        <p style = "color:var(--secondary); font-size:150%; text-align:justify; padding: 0px 20px;">
         I always have an idea to share. Whether it's a good idea or a bad idea depends on how open minded you are.  From puzzle 
     books as a child to word problems in math class, I've always enjoyed coming up with unique solutions to challenging problems.
     I learned programming as it offered many unique tools to solve my day to day problems.  After learning everything I could I began 
@@ -36,9 +36,9 @@
         </p>
     </section>
 
-    <section class = "AboutMe">
+    <section class = "sectionPanel">
         <h2 style = "color:var(--primary);font-size:200%">My Best Languages</h2>
-        <table style="margin-left:20px;">
+        <table style="padding: 0px 20px;">
             <tr>
                 <th>Language</th>
                 <th style="text-align:left;">Experience</th>
@@ -49,7 +49,7 @@
             </tr>
             <tr>
                 <td>English</td>
-                <td>Honestly probably worse at this than python at this point</td>
+                <td>Honestly probably better at Python by now</td>
             </tr>
             <tr>
                 <td>Java</td>
@@ -58,6 +58,10 @@
             <tr>
                 <td>Javascript</td>
                 <td>A language I started learning recently and have quickly developed</td>
+            </tr>
+            <tr>
+                <td>Scratch</td>
+                <td>Highly underrated language</td>
             </tr>
             <tr>
                 <td>HTML Suite</td>
@@ -74,11 +78,11 @@
             <li>Project 3</li>
         </ul>
     </section> -->
-
+    </main>
     <footer>
         <h2 style = "color:var(--primary);font-size:200%">Contact Me</h2>
         <h3 style = "color:var(--secondary); font-size:150%;" >Find out what bad idea I'm thinking about or yap with me about a previous one</div>
-        <form style = "margin-left:20px">
+        <form style = "margin: 0 20px">
         <label for="name" class = "inputLabel">Name:</label>
         <input type="text" id="name" name="name" class = "inputBox" placeholder="John Doe" required><br>
         <label for="email" class = "inputLabel">Email:</label>
@@ -88,7 +92,7 @@
         <button type="submit" class = "submit">Submit</button>
         </form>
         <br>
-        <div style = "color:car(--secondary);font-size:50%">© 2026 Darren Farnsworth. All rights reserved.</div>
+        <div style = "color:car(--secondary);font-size:50%">&#169 2026 Darren Farnsworth. All rights reserved.</div>
     </footer>
 
 </body>

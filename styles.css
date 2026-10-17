@@ -1,11 +1,9 @@
 
       
 :root {
-    --primary:#f3e5ab;
+    --primary:#FFC107;
     --secondary:#fdfaf5;
     --bg:#121212;
-
-
 }
 
 /* Ruined my formatting, I want manual control so I'm setting these to defaults */
@@ -24,7 +22,8 @@ body{
 .Intro{
     background-color:var(--bg);
 }
-.AboutMe{
+
+.sectionPanel{
     background-color:var(--bg);
     margin: 20px;
     padding:15px;
@@ -41,7 +40,7 @@ th{
 td{
     color:var(--secondary);
     font-size:150%;
-    padding-right:30px;
+    padding:0px 30px;
 }
 .submit{
     font-size:100%; 
@@ -53,7 +52,7 @@ td{
     border-radius:4px;
 }
 .inputBox{
-    font-size:120%;
+    font-size:100%;
     background-color: #1e1e1e;
     color: var(--secondary);
     border: 1px;
@@ -61,12 +60,12 @@ td{
 }
 .inputLabel{
     color:var(--secondary); 
-    font-size:150%; 
+    font-size:100%; 
     padding-right:10px;
 }
 textarea{
     resize:none; 
-    font-size:150%;
+    font-size:120%;
     background-color: #1e1e1e;
     border: 1px;
     border-radius: 4px;
