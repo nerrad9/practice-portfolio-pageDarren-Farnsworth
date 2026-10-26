@@ -32,12 +32,12 @@ body{
     border-color:var(#000);
 }
 
-th{
+th, li p a{
     color:var(--primary);
     font-size:170%;
     padding-right:30px;
 }
-td{
+td, li p{
     color:var(--secondary);
     font-size:150%;
     padding:0px 30px;
