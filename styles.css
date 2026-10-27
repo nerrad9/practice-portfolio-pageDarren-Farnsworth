@@ -31,16 +31,31 @@ body{
     border-radius: 10px;
     border-color:var(#000);
 }
+    
+.title{
+    color:var(--primary);
+    font-size:200%;
+}
 
-th, li p a{
+th{
     color:var(--primary);
     font-size:170%;
     padding-right:30px;
 }
-td, li p{
+td{
     color:var(--secondary);
     font-size:150%;
     padding:0px 30px;
+}
+li p{
+    color:var(--secondary);
+    font-size:125%;
+    padding:0px 30px;
+}
+li p a{
+    color:var(--primary);
+    font-size:150%;
+    padding-right:30px;
 }
 .submit{
     font-size:100%; 
